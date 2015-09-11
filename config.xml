@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.samheutmaker.taglocator" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Rendezvous</name>
+    <description>
+        
+    </description>
+    <author email="samheutmaker@gmail.com" href="http://www.samheutmaker.com">
+        Samuel Heutmaker
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="Fullscreen" value="true" />
+   	<preference name="Orientation" value="portrait" />
+    <icon src="icon.png" />
+
+    <platform name="android">
+        <!-- you can use any density that exists in the Android project -->
+        <splash src="splash.png" density="land-hdpi"/>
+    </platform>
+    <preference name="SplashScreenDelay" value="10000" />
+
+</widget>
